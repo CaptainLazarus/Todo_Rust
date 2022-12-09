@@ -1,5 +1,5 @@
 [package]
-name = "todo"
+name = "cli_todo_list"
 version = "0.1.0"
 license = "MIT OR Apache-2.0"
 authors = ["Aditya Sujith Gudimetla <adityagudimetla@gmail.com>"]
