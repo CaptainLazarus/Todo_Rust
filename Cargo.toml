@@ -1,0 +1,23 @@
+[package]
+name = "todo"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+authors = ["Aditya Sujith Gudimetla <adityagudimetla@gmail.com>"]
+description = "A  CLI todo list"
+readme = "README.md"
+homepage = "https://github.com/CaptainLazarus/Todo_Rust"
+repository = "https://github.com/CaptainLazarus/Todo_Rust"
+keywords = ["cli", "todo", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "4.0.29" , features = ["derive"]}
+dirs = "4.0.0"
+anyhow = "1.0.66"
+
+[dev-dependencies]
+assert_cmd = "2.0.7"
+assert_fs = "1.0.10"
+predicates = "2.1.4"
